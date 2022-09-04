@@ -1260,6 +1260,10 @@
       "inh": "",
       "impl": []
     },
+    "GPUInternalError": {
+      "inh": "GPUError",
+      "impl": []
+    },
     "GPUOutOfMemoryError": {
       "inh": "GPUError",
       "impl": []
@@ -1805,6 +1809,14 @@
       "impl": []
     },
     "IntrinsicSizes": {
+      "inh": "",
+      "impl": []
+    },
+    "JsonLd": {
+      "inh": "",
+      "impl": []
+    },
+    "JsonLdProcessor": {
       "inh": "",
       "impl": []
     },
@@ -2532,6 +2544,22 @@
       "inh": "AbstractRange",
       "impl": []
     },
+    "RdfDataset": {
+      "inh": "",
+      "impl": []
+    },
+    "RdfGraph": {
+      "inh": "",
+      "impl": []
+    },
+    "RdfLiteral": {
+      "inh": "",
+      "impl": []
+    },
+    "RdfTriple": {
+      "inh": "",
+      "impl": []
+    },
     "ReadableByteStreamController": {
       "inh": "",
       "impl": []
@@ -2558,6 +2586,10 @@
     },
     "RelativeOrientationSensor": {
       "inh": "OrientationSensor",
+      "impl": []
+    },
+    "RemoteDocument": {
+      "inh": "",
       "impl": []
     },
     "RemotePlayback": {
