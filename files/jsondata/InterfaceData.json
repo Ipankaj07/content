@@ -300,10 +300,6 @@
       "inh": "MediaStreamTrack",
       "impl": []
     },
-    "CanvasFilter": {
-      "inh": "",
-      "impl": []
-    },
     "CanvasGradient": {
       "inh": "",
       "impl": []
