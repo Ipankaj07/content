@@ -44,7 +44,7 @@ In this article we cover the absolute basics of HTML. To get you started, this a
 
 ## What is HTML?
 
-{{glossary("HTML")}} (Hypertext Markup Language) is a _markup language_ that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of {{glossary("Element", "elements")}}, which you use to enclose, wrap, or _mark up_ different parts of content to make it appear or act in a certain way. The enclosing {{glossary("Tag", "tags")}} can make content into a hyperlink to connect to another page, italicize words, and so on. For example, consider the following line of text:
+{{glossary("HTML")}} (HyperText Markup Language) is a _markup language_ that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of {{glossary("Element", "elements")}}, which you use to enclose, wrap, or _mark up_ different parts of content to make it appear or act in a certain way. The enclosing {{glossary("Tag", "tags")}} can make content into a hyperlink to connect to another page, italicize words, and so on. For example, consider the following line of text:
 
 ```
 My cat is very grumpy
@@ -289,7 +289,7 @@ Edit the line below in the _Input_ area to turn it into a link to your favorite 
 2. Add the `href` attribute and the `title` attribute.
 3. Specify the `target` attribute to open the link in the new tab.
 
-You will be able to see your changes update live in the _Output_ area. You should see a link—that when hovered over—displays the value of the `title` attribute, and when clicked, navigates to the web address in the `href` attribute. Remember that you need to include a space between the element name, and between each attribute.
+You will be able to see your changes update live in the _Output_ area. You should see a link—that when hovered over—displays the value of the `title` attribute and, when clicked, opens a new tab and navigates to the web address in the `href` attribute. Remember that you need to include a space between the element name, and between each attribute.
 
 If you make a mistake, you can always reset it using the _Reset_ button. If you get really stuck, press the _Show solution_ button to see the answer.
 
@@ -708,7 +708,7 @@ You do this with character references. These are special codes that represent ch
 | '                 | `&apos;`                         |
 | &                 | `&amp;`                          |
 
-The character reference equivalent could be easily remembered because the text it uses can be seen as less than for '\&lt;' , quotation for ' \&quot; ' and similarly for others. To find more about entity reference, see [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references) (Wikipedia).
+The character reference equivalent could be easily remembered because the text it uses can be seen as less than for '\&lt;', quotation for ' \&quot; ' and similarly for others. To find more about entity reference, see [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references) (Wikipedia).
 
 In the example below, there are two paragraphs:
 
